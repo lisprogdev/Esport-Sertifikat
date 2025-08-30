@@ -35,12 +35,13 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: var(--gradient-primary);
-    min-height: 100vh;
+    overflow-x: hidden;
 }
 
 /* Smooth scrolling */
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Account for fixed navbar */
 }
 
 /* Loading animation untuk AOS */
