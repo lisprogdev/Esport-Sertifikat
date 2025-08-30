@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://esport-sertifikat.com/sitemap.xml
+
+# Crawl-delay untuk menghormati server
+Crawl-delay: 1
+
+# Disallow untuk file yang tidak perlu di-index
+Disallow: /css/
+Disallow: /js/
+Disallow: /img/favicon/
+Disallow: /page/
